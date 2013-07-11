@@ -59,7 +59,7 @@ public class CompanyFlightsFactory {
 			}
 			
 			Route route = this.RandomRouteFactory();
-			company.addFlight(new Flight(aircraft, route.getTo(), route.getFrom()));
+			company.addFlight(new Flight(aircraft, route.getFrom(), route.getTo()));
 		}
 		
 		return company;

@@ -9,8 +9,8 @@ public class Airport {
 	
 	private static Airport instance;
 	
-	private String cod;
-	private String name;
+	private String cod = "";
+	private String name = "";
 	
 	private List<Road> roads;
 	

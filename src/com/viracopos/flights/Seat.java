@@ -2,15 +2,15 @@ package com.viracopos.flights;
 
 public class Seat {
 	
-	private String row;
-	private Integer num;
+	private String place;
+	private Integer row;
 	
-	public Seat(String row, int num) {
+	public Seat(Integer row, String place) {
 		this.row = row;
-		this.num = num;
+		this.place = place;
 	}
 	
 	public String getLocation() {
-		return this.row + this.num.toString();
+		return this.row.toString() + this.place;
 	}
 }

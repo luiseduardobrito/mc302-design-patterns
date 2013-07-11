@@ -9,17 +9,17 @@ public enum Company {
 	AZUL(),
 	GOL();
 	
-	private List<Flight> flight;
+	private List<Flight> flights;
 	
 	private Company(){
-		this.flight = new ArrayList<Flight>();
+		this.flights = new ArrayList<Flight>();
 	}
 	
 	public List<Flight> getFlights() {
-		return this.flight;
+		return this.flights;
 	}
 	
 	public void addFlight(Flight flight) {
-		this.flight.add(flight);
+		this.flights.add(flight);
 	}
 }

@@ -9,7 +9,7 @@ import com.viracopos.structure.roads.RoadType;
 
 public class AirportFactory {
 	
-	public Airport create(String cod, String name, Integer roadNumber) {
+	public static Airport create(String cod, String name, Integer roadNumber) {
 		
 		// declare airport instance
 		Airport airport = Airport.getInstance();
